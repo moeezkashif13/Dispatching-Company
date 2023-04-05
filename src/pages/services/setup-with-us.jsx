@@ -352,31 +352,6 @@ return   <div className=" mb-6 xs:mb-6 " style={{flexBasis:'48%'}}>
 {/*  */}
 
 
-<div className="flex gap-x-12">
-
-
-<div className="w-40 h-40 bg-red-500 bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${previewCheck.firstPreview})`}}></div>
-
-
-<div className="w-40 h-40 bg-red-500 bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${previewCheck.secondPreview})`}}></div>
-
-
-</div>
-
-
-
-<input type="file" onChange={(event)=>{
-    console.log(event.target.files[0]);
-
-    let reader = new FileReader()
-    reader.readAsDataURL(event.target.files[0])
-    reader.onload = () => {
-      console.log(reader.result)
-
-    }
-
-}} />
-
 
 
 
