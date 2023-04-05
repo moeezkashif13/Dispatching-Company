@@ -49,15 +49,15 @@ export default function About(){
 <div className="w-1/2 xs:w-full">
 
         <p className="text-xl font-semibold">SHORT STORY</p>
-        <h1 className="text-4xl font-bold mt-4 mb-8">ABOUT SAHMALLLLC DISPATCH</h1>
+        <h1 className="text-4xl font-bold mt-4 mb-8">ABOUT SAHHMALL DISPATCH</h1>
 
         <div className="flex flex-col text-lg font-semibold gap-y-8">
 
-<p>1. In business since 2017, Skv Dispatch is currently dispatching
+<p>1. In business since 2017, Sahhmall Dispatch is currently dispatching
 more than 200 carriers (including Dry van, Reefer, Power only, Cdl Hotshot, Flatbed, Box Truck etc) with the competitive rates in the market.</p>
 
 
-<p>2. Sahmallllc Dispatch pays their dispatchers by commission; this is a
+<p>2. Sahhmall Dispatch pays their dispatchers by commission; this is a
 results oriented position. Each dispatcher will have up to 3-5
 trucks for a more personalized relationship with your drivers.
 Additionally, the dispatchers have excellent team leads to

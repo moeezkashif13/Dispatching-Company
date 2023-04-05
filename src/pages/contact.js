@@ -6,6 +6,8 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { FaFacebookF } from "react-icons/fa";
 
+import {MdEmail} from 'react-icons/md'
+
 export default function Contact(){
 
     const [contactForm,setContactForm] = useState({
@@ -77,21 +79,19 @@ export default function Contact(){
 <p className="text-5xl font-bold mb-16 xs:text-4xl">GET IN TOUCH</p>
 
 
-<div className="flex xs:flex-col xs:gap-y-10 gap-x-12" >
+<div className="flex justify-center xs:flex-col xs:gap-y-10 gap-x-12" >
 
 
-{[1,2,3].map(()=>{
-    return <div className="flex-grow ">
+ <div className="flex-grow ">
 
-        <span className="text-[#2970e1] text-6xl"><FaFacebookF/></span>
+        <span className="text-[#2970e1] text-6xl"><MdEmail/></span>
 
 <p className="uppercase text-3xl font-extrabold mt-6 mb-1">E-Mail</p>
 
-<p className="font-semibold" style={{color:`rgba(0, 0, 0, 0.6)`}}>sales@sahmallllcdispatch.net</p>
+<p className="font-semibold" style={{color:`rgba(0, 0, 0, 0.6)`}}>compliance@sahhmallllc.com</p>
 
 
     </div>
-})}
 
 
 

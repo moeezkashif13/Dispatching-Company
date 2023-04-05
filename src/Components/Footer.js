@@ -53,7 +53,7 @@ CALL TODAY – (270) 633-8942
 
 
     <div className="xs:text-center">
-    Copyright © 2023 SAHMALLLLC DISPATCH | Powered by SAHMALLLLC DISPATCH
+    Copyright © 2023 SAHHMALL DISPATCH | Powered by SAHHMALL DISPATCH
     </div>
 
 

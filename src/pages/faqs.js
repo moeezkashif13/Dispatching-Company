@@ -34,10 +34,8 @@ const allFAQS = [
 
         {heading:'What happens if a load is delayed or canceled?',paragraph:'Unfortunately, delays and cancellations can occur in the transportation industry due to various factors, such as weather conditions or unforeseen circumstances. In the event that a load is delayed or canceled, we work closely with our carriers and clients to find a suitable solution that meets their needs. Our dispatchers maintain open communication with carriers and clients to ensure timely updates and provide alternative options, such as rescheduling the shipment or finding another load within little to no down time.'},
 
-
-
+        
         {heading:'How can I get paid for my loads?',paragraph:'Sahmallllc Dispatch LLC does not have its own MC, but instead relies on the MC of its carrier to book loads. When a load is delivered, the payment is received by the carrier, either directly from the broker or through their factoring company.'},
-
 
 
         {heading:'Do you offer dispatch services for LTL shipments?',paragraph:'Yes, we are specialized in getting LTL loads especially for SB, HT & DRY VANs so that we can maximize your earning.'},
