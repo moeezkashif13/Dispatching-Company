@@ -8,6 +8,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import { useEffect, useState } from "react"
 import axios from "axios"
+import Loader from "@/Components/Loader"
 
 
 const supportedMimeTypes = ['image/jpeg', 'image/png', 'application/pdf'];
@@ -165,12 +166,13 @@ export default function SetupWithUs(){
             secondPreview : ''
         })
 
+        const [showLoader,setShowLoader] = useState(false);
+        const [message,setMessage] = useState("")
 
     const onSubmit = (data)=>{
 
-        console.log(data);
+        setShowLoader(true);
 
-        
 
         
                     axios.post("/api/backend-signup-form",{
@@ -178,9 +180,14 @@ export default function SetupWithUs(){
                 ...data,
             }
         }).then(resp=>{
-            console.log(resp);
+
+            setShowLoader(false)
+            setMessage("Form has been submitted successfully")
         }).catch(err=>{
-            console.log(err);
+            
+            setShowLoader(false)
+            setMessage("There is an error in submitting the form")
+
         })
 
     //     const image = data["MC Authority"][0]
@@ -229,7 +236,16 @@ export default function SetupWithUs(){
     <title>Setup With Us - Sahhmallllc</title>
 </Head>
 
-        <div>
+        <div className="relative">
+
+{showLoader&&
+
+<div className="w-full flex justify-center items-center z-30 h-full fixed" style={{backgroundColor:'rgba(0,0,0,0.8'}}>
+
+        <Loader/>
+</div>
+
+}
 
 
 {/* <HeroSect heading="SETUP WITH US" />  */}
@@ -311,6 +327,10 @@ return   <div className=" mb-6 xs:mb-6 " style={{flexBasis:'48%'}}>
 <input type="submit" value="Submit" className=" bg-black text-white inline px-8 text-lg py-1.5 cursor-pointer font-semibold"/>
 
 </div>
+
+<p className="mt-6 font-semibold text-2xl">{message}</p>
+
+
 
 </form>
 

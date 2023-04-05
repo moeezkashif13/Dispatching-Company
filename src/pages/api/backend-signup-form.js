@@ -36,7 +36,7 @@ const contactEmail =  nodemailer.createTransport({
 const {City,MC,EIN,Address,State,Zip,...rest} = req.body.data
 
 
-console.log(rest,"rest rest rest");
+
 
 const mail = {
   from: `${rest["Driver Name"]} <${rest["Company Email"]}> ` ,
