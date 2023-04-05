@@ -21,10 +21,10 @@ const dispatchingServices = [
     {icon:<IoDocumentLockSharp/>,heading:'SPECIALIZED WITH NEW MC',paragraph:'Registering your MC with the FMCSA is mandatory for most US trucking companies. It improves safety, ensures legal compliance, and adds credibility to your business. Our experienced dispatchers can help make the registration process easier by assisting with obtaining your USDOT number, completing the application, scheduling the safety audit, and ensuring compliance. Contact us today to learn more about our services.'},
 
 
-    {icon:<BsFillCreditCardFill/>,heading:'CREDIT CHECKS ON BROKER',paragraph:'At Sky Dispatch, we carefully select brokers to ensure they have good credit scores and a proven track record of timely payments. Our screening process helps customers avoid payment delays and other financial challenges in the transportation industry. We also provide ongoing financial planning and management services to help our customers succeed. Contact us to learn more about how we can help you get paid on time, every time.'},
+    {icon:<BsFillCreditCardFill/>,heading:'CREDIT CHECKS ON BROKER',paragraph:'At Sahmallllc Dispatch, we carefully select brokers to ensure they have good credit scores and a proven track record of timely payments. Our screening process helps customers avoid payment delays and other financial challenges in the transportation industry. We also provide ongoing financial planning and management services to help our customers succeed. Contact us to learn more about how we can help you get paid on time, every time.'},
 
 
-    {icon:<TbBrandBooking/>,heading:'ADVANCE BOOKING',paragraph:'At Sky Dispatch LLC, we offer advance booking services to ensure timely and efficient transportation of goods. Planning ahead is key to providing the best possible service to our customers. Our simple booking process and wide range of vehicles make it easy to find the best solution for your transportation needs. We also provide real-time updates on the status of shipments and optimize our routes to reduce costs and environmental impact. Contact us today to learn more about our advance booking services.'},
+    {icon:<TbBrandBooking/>,heading:'ADVANCE BOOKING',paragraph:'At Sahmallllc Dispatch LLC, we offer advance booking services to ensure timely and efficient transportation of goods. Planning ahead is key to providing the best possible service to our customers. Our simple booking process and wide range of vehicles make it easy to find the best solution for your transportation needs. We also provide real-time updates on the status of shipments and optimize our routes to reduce costs and environmental impact. Contact us today to learn more about our advance booking services.'},
 
 
     {icon:<FaTruckMoving/>,heading:'PARTIAL LOADS GAME',paragraph:"We specialize in providing high-quality partial loads games for box truck, hotshot, and dry van, tailored to our customers' needs. Our cutting-edge technology and data analysis tools help identify the most profitable loads, ensuring maximum efficiency and profitability. We also offer a range of value-added services, including access to industry partners, ongoing support and guidance, and weekly gross outstanding. Contact us today to learn how to increase your revenew."},
@@ -33,7 +33,7 @@ const dispatchingServices = [
     {icon:<BsFuelPumpFill/>,heading:'FUEL CARD',paragraph:'We help transportation companies manage fuel expenses with our convenient and customizable fuel card services. Our partners offer branded and unbranded card options, discounts, and rewards. We work closely with customers to choose the best card and provide ongoing support. Our value-added services also include load planning and access to trusted industry partners. Contact us to streamline your operations and maximize profitability.'},
 
 
-    {icon:<FaFileContract/>,heading:'CONTRACT FREE DISPATCHING',paragraph:'Sky Dispatch LLC offers high-quality dispatch services without restrictive contracts. We work closely with customers to understand their unique needs and provide support, guidance, and resources for success in the transportation industry. Our team is always available to help with load booking, back-end office support, and fuel card management. Contact us today to learn more about our services and grow your business.'},
+    {icon:<FaFileContract/>,heading:'CONTRACT FREE DISPATCHING',paragraph:'Sahmallllc Dispatch LLC offers high-quality dispatch services without restrictive contracts. We work closely with customers to understand their unique needs and provide support, guidance, and resources for success in the transportation industry. Our team is always available to help with load booking, back-end office support, and fuel card management. Contact us today to learn more about our services and grow your business.'},
 
     {icon:<FiTarget/>,heading:'FLEET MANAGMENT',paragraph:"As a dispatch company that specializes in the trucking industry, we understand that managing a fleet of trucks can be a challenging task"},
 
@@ -45,7 +45,7 @@ const dispatchingServices = [
 
 
 
-    {icon:<BiDollar/>,heading:'HIGHEST PAYING LOADS',paragraph:"At Sky Dispatch LLC, we prioritize finding the highest paying loads for our customers"},
+    {icon:<BiDollar/>,heading:'HIGHEST PAYING LOADS',paragraph:"At Sahmallllc Dispatch LLC, we prioritize finding the highest paying loads for our customers"},
     
     
     
@@ -58,7 +58,7 @@ const dispatchingServices = [
 
 const allFeatures = [
 
-        {heading:'FLEET MANAGMENT',firstPara:"As a dispatch company that specializes in the trucking industry, we understand that managing a fleet of trucks can be a challenging task. That’s why we’re excited to offer fleet management services on our website that are specifically tailored to the needs of trucking companies.",secondPara:'Fleet management is the process of managing and optimizing a company’s fleet of vehicles, including trucks, vans, and other vehicles. Effective fleet management is essential for ensuring that your trucks are operating efficiently and safely, reducing costs, and maximizing profits.',thirdPara:'At Sky Dispatch LLC we offer fleet management services that are customized for the trucking industry. We have years of experience working with trucking companies of all sizes, and we understand the specific challenges and needs of the industry.'},
+        {heading:'FLEET MANAGMENT',firstPara:"As a dispatch company that specializes in the trucking industry, we understand that managing a fleet of trucks can be a challenging task. That’s why we’re excited to offer fleet management services on our website that are specifically tailored to the needs of trucking companies.",secondPara:'Fleet management is the process of managing and optimizing a company’s fleet of vehicles, including trucks, vans, and other vehicles. Effective fleet management is essential for ensuring that your trucks are operating efficiently and safely, reducing costs, and maximizing profits.',thirdPara:'At Sahhmallllc Dispatch LLC we offer fleet management services that are customized for the trucking industry. We have years of experience working with trucking companies of all sizes, and we understand the specific challenges and needs of the industry.'},
 
 
 
@@ -67,13 +67,13 @@ const allFeatures = [
 
 
 
-        {heading:'24/7 BACK-END CUSTOMER SUPPORT',firstPara:'We provide exceptional back-end office support to our customers, helping them manage paperwork, invoicing, and other administrative tasks. Our experienced team is available 24/7 to assist with load tracking, billing, collections, and other needs. We also offer value-added services such as load planning and optimization and access to a network of trusted industry partners to help our customers streamline their operations and reduce expenses.',secondPara:'At Sky Dispatch LLC, we are committed to helping our customers succeed in the transportation industry. Our back-end office support team is dedicated to providing reliable and efficient support, and we offer a range of value-added services to help our customers manage their operations more effectively. Contact us today to learn more about how we can help you succeed in the transportation industry.',thirdPara:''},
+        {heading:'24/7 BACK-END CUSTOMER SUPPORT',firstPara:'We provide exceptional back-end office support to our customers, helping them manage paperwork, invoicing, and other administrative tasks. Our experienced team is available 24/7 to assist with load tracking, billing, collections, and other needs. We also offer value-added services such as load planning and optimization and access to a network of trusted industry partners to help our customers streamline their operations and reduce expenses.',secondPara:'At Sahhmallllc Dispatch LLC, we are committed to helping our customers succeed in the transportation industry. Our back-end office support team is dedicated to providing reliable and efficient support, and we offer a range of value-added services to help our customers manage their operations more effectively. Contact us today to learn more about how we can help you succeed in the transportation industry.',thirdPara:''},
 
 
 
 
 
-        {heading:'HIGHEST PAYING LOADS',firstPara:'At Sky Dispatch LLC, we prioritize finding the highest paying loads for our customers. Our experienced dispatchers use advanced tools and technologies to identify the most profitable opportunities for our customers, taking into account their unique needs and preferences. We also prioritize load consistency and provide transparent communication and updates to keep our customers informed.',secondPara:'We understand that finding high-paying loads can come with risks, so we take a comprehensive approach to risk management and offer value-added services like fuel cards and access to industry partners to help our customers reduce costs and maximize profitability. Contact us today to learn more about how we can help you stay competitive in the transportation industry.',thirdPara:''},
+        {heading:'HIGHEST PAYING LOADS',firstPara:'At Sahhmallllc Dispatch LLC, we prioritize finding the highest paying loads for our customers. Our experienced dispatchers use advanced tools and technologies to identify the most profitable opportunities for our customers, taking into account their unique needs and preferences. We also prioritize load consistency and provide transparent communication and updates to keep our customers informed.',secondPara:'We understand that finding high-paying loads can come with risks, so we take a comprehensive approach to risk management and offer value-added services like fuel cards and access to industry partners to help our customers reduce costs and maximize profitability. Contact us today to learn more about how we can help you stay competitive in the transportation industry.',thirdPara:''},
 
 
 

@@ -87,7 +87,7 @@ export default function Contact(){
 
 <p className="uppercase text-3xl font-extrabold mt-6 mb-1">E-Mail</p>
 
-<p className="font-semibold" style={{color:`rgba(0, 0, 0, 0.6)`}}>sales@skydispatch.net</p>
+<p className="font-semibold" style={{color:`rgba(0, 0, 0, 0.6)`}}>sales@sahmallllcdispatch.net</p>
 
 
     </div>

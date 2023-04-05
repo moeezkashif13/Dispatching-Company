@@ -71,12 +71,12 @@ export default function Home() {
     <div className="w-2/3 xs:w-full mt-32 xs:mt-16">
 
 <div className='font-bold'>
-      <p className='text-2xl xs:text-lg'>WELCOME TO SKY DISPATCH</p>
+      <p className='text-2xl xs:text-lg'>WELCOME TO SAHMALLLLC DISPATCH</p>
 
-    <h1 className='text-7xl xs:text-4xl my-7 xs:my-4 '>LET'S TOUCH THE SKY</h1>
+    <h1 className='text-6xl  leading-[70px] xs:text-4xl mt-7 mb-3 xs:my-4 '>LET'S TOUCH THE SAHMALLLLC</h1>
     </div>
 
-    <p className='leading-6 font-semibold 2xl:w-2/3 2xl:text-2xl xs:text-[1rem]'>Sky Dispatch LLC, based in Sheridan Wyoming, specializes in providing excellent dispatch services to Operator owners/ Carriers all over the USA. We offer an experienced and specialized team who are working effectively to improve the gross incomes of our clients We aim to provide our clients with the best loads and negotiate with brokers to get the best rates.</p>
+    <p className='leading-6 font-semibold 2xl:w-2/3 2xl:text-2xl xs:text-[1rem]'>Sahmallllc Dispatch LLC, based in Sheridan Wyoming, specializes in providing excellent dispatch services to Operator owners/ Carriers all over the USA. We offer an experienced and specialized team who are working effectively to improve the gross incomes of our clients We aim to provide our clients with the best loads and negotiate with brokers to get the best rates.</p>
 
 <div className='mt-10 pb-40 xs:pb-20'>
     <Link href="/contact" className='px-9 py-2 transition-all text-lg  bg-[#202F87] hover:bg-[#1229DB] '>Book Now</Link>

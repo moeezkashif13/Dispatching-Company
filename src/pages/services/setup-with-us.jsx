@@ -92,8 +92,12 @@ const schema = yup.object({
 [details[12].text] : yup.string().required("Please enter factoring company name"),
 
 
-[details[13].text] : yup.string().matches(/^\d{5}$/, 'Must be exactly 5 digits')
+// [details[13].text] : yup.string().matches(/^\d{5}$/, 'Must be exactly 5 digits')
+// .required('Enter valid truck number'),
+
+[details[13].text] : yup.string().min(1,"Truck Number should be from 1 to 5 digits").max(5,"Truck Number should be from 1 to 5 digits")
 .required('Enter valid truck number'),
+
 
 [details[14].text] : yup.string().required("Please enter driver name"),
 
@@ -105,9 +109,11 @@ const schema = yup.object({
   .required('Phone number is required'),
 
 
-  [details[16].text] : yup.string().matches(/^\d{5}$/, 'Must be exactly 5 digits')
-  .required('Enter valid trailer number'),
+//   [details[16].text] : yup.string().matches(/^\d{5}$/, 'Must be exactly 5 digits')
+//   .required('Enter valid trailer number'),
 
+[details[16].text] : yup.string().min(1,"Trailer Number should be from 1 to 5 digits").max(5,"Trailer Number should be from 1 to 5 digits")
+.required('Enter valid truck number'),
 
 
 //   [details[17].uploadFieldText]: yup.mixed().test('fileType', 'Unsupported file format', value => {
@@ -172,7 +178,6 @@ export default function SetupWithUs(){
     const onSubmit = (data)=>{
 
         setShowLoader(true);
-
 
         
                     axios.post("/api/backend-signup-form",{
@@ -248,7 +253,7 @@ export default function SetupWithUs(){
 }
 
 
-{/* <HeroSect heading="SETUP WITH US" />  */}
+<HeroSect heading="SETUP WITH US" /> 
 
 
 
@@ -268,7 +273,7 @@ export default function SetupWithUs(){
 <div className="flex flex-wrap xs:flex-col gap-x-5">
 
 {details.map((eachDetail,index)=>{
-return   <div className=" mb-6 xs:mb-6 " style={{flexBasis:'48%'}}>
+return   <div className=" mb-6 xs:mb-6 " style={{flexBasis:'32%'}}>
 
 {eachDetail.text&&
 <>
@@ -281,7 +286,7 @@ return   <div className=" mb-6 xs:mb-6 " style={{flexBasis:'48%'}}>
 
 {(eachDetail.text=="EIN"&&errors["EIN"]?.message.length>0)&&  <p className="font-semibold text-[1rem] text-green-500 mt-2">EIN must be in this format : 00-0000000</p>}
 
-{errors[eachDetail.text]?.message&&<p className="font-semibold text-lg text-red-500 mt-2">{errors[eachDetail.text]?.message}</p>}
+{errors[eachDetail.text]?.message&&<p className="font-semibold text-[1rem] text-red-500 mt-2">{errors[eachDetail.text]?.message}</p>}
 
 
 

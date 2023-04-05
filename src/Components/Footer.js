@@ -31,7 +31,7 @@ style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2022
             <p>Available</p>
         </div>
 
-    <div>info@skydispatch.net</div>
+    <div className="text-xl">compliance@sahhmallllc.com</div>
 
     <div className="text-right xs:text-center">
             <p>30 N Gould St</p>
@@ -44,27 +44,27 @@ style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2022
 
 
 <div className="text-center font-bold text-4xl xs:text-3xl mt-4 mb-28 xs:mb-60">
-CALL TODAY – (307) 218-2655
+CALL TODAY – (270) 633-8942
 
 </div>
 
 
-<div className="absolute w-full bg-[#082F6D] bottom-0 left-0 px-commonPadding flex xs:flex-col text-lg  xs:text-sm  xs:gap-y-4  py-6">
+<div className="absolute w-full bg-[#082F6D] bottom-0 left-0 px-commonPadding flex xs:flex-col text-[1rem]  xs:text-sm  xs:gap-y-4  py-6">
 
 
     <div className="xs:text-center">
-    Copyright © 2023 SKY DISPATCH | Powered by SKY DISPATCH
+    Copyright © 2023 SAHMALLLLC DISPATCH | Powered by SAHMALLLLC DISPATCH
     </div>
 
 
     <div className="ml-auto flex xs:flex-col xs:ml-0 xs:text-center gap-x-8 xs:gap-y-2">
 
-            <Link href="/">Home</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
-            <Link href="/truck-type">Truck type</Link>
-            <Link href="/faqs">FAQ's</Link>
+            <Link className="underline" href="/">Home</Link>
+            <Link className="underline" href="/services">Services</Link>
+            <Link className="underline" href="/about">About</Link>
+            <Link className="underline" href="/contact">Contact</Link>
+            <Link className="underline" href="/truck-type">Truck type</Link>
+            <Link className="underline" href="/faqs">FAQ's</Link>
 
 
     </div>
