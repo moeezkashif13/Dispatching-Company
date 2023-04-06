@@ -102,7 +102,7 @@ export default function Home() {
 <h1 className='text-5xl xs:text-4xl font-bold mb-12 xs:mb-6'>OUR SERVICES </h1>
 
 
-<div className='flex justify-between xs:flex-col xs:gap-y-16  max-w-commonMaxWidth 1xl:mx-auto '>
+<div className='flex flex-wrap justify-between xs:flex-col gap-y-16  max-w-commonMaxWidth 1xl:mx-auto '>
 
   {ourServices.map((eachService)=>{
     return   <div className='w-[349px] xs:w-full'>
@@ -146,7 +146,7 @@ export default function Home() {
 
 <div className='flex flex-wrap gap-10 xs:flex-col max-w-commonMaxWidth 1xl:mx-auto  '>
   {testimonials.map((eachTestimonial,index)=>{
-    return <div className={`flex  xs:flex-col self-start  w-[580px]  xs:w-full gap-x-4  ${index%2!=0?'mt-28 xs:mt-0':''}  `} >
+    return <div className={`flex  xs:flex-col self-start  w-[580px]  xs:w-full gap-x-4   `} >
 
           <div className='min-w-[200px]  h-[160px] xs:h-[250px]'>
             <img src={eachTestimonial.image} className='w-full h-full object-cover object-center'   />

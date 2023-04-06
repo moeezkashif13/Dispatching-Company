@@ -8,7 +8,7 @@ export default function Navbar(){
 
         {/* <div className=" w-40 h-40 xs:w-24 xs:h-24 bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(/mainlogo.png)`}}>    </div> */}
     
-        <div className="flex gap-x-8 xs:flex-col  mt-12 xs:-mt-2 xs:mb-10 xs:text-center xs:gap-y-4">
+        <div className="flex gap-x-8 xs:flex-col  mt-12  xs:text-center xs:gap-y-4">
         
         <Link className="hover:text-[#fe0000]" style={{transition:'all 0.5s'}} href="/">Home</Link>
         
