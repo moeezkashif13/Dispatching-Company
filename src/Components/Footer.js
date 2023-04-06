@@ -43,7 +43,7 @@ style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2022
         </div>
 
 
-<div className="text-center font-bold text-4xl xs:text-3xl mt-4 mb-28 xs:mb-60">
+<div className="text-center check:pb-8 font-bold text-4xl xs:text-3xl mt-4 mb-28 xs:mb-60">
 CALL TODAY – (270) 633-8942
 
 </div>
