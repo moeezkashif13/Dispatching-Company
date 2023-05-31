@@ -11,13 +11,13 @@ import Head from 'next/head'
 const ourServices = [
 
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2022/01/Capture-6.png',heading:'CONTRACT FREE',paragraph:"We don't blind our carriers, so they're free to leave us for any reason."},
+  {image:'/Capture-6.png',heading:'CONTRACT FREE',paragraph:"We don't blind our carriers, so they're free to leave us for any reason."},
 
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2022/01/Screenshot-2022-01-18-211017.jpg',heading:'HIGHEST PAY POSSIBLE',paragraph:'Rates negotiation ensures you receive the highest pay possible'},
+  {image:'/Screenshot-2022-01-18-211017.jpg',heading:'HIGHEST PAY POSSIBLE',paragraph:'Rates negotiation ensures you receive the highest pay possible'},
 
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2022/01/03.jpg',heading:'FASTEST PAY POSSIBLE',paragraph:'Factoring with RTS Financial or the company of your choice.'},
+  {image:'/03.jpg',heading:'FASTEST PAY POSSIBLE',paragraph:'Factoring with RTS Financial or the company of your choice.'},
 
 
 ]
@@ -25,17 +25,17 @@ const ourServices = [
 
 const testimonials = [
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2023/03/black-man-truck-driver-in-the-cab-of-his-commercia-2022-03-04-02-10-50-utc-scaled-1-1024x683.jpg',paragraph:'I can truly say, this team of dispatchers dose their job when it comes to finding loads. I’m constantly booked up until my 34 off duty HOS. They communicate every detail on every level when it comes to the broker and load.',name:'DENNIS BURKE'},
+  {image:'/black-man-truck-driver-in-the-cab-of-his-commercia-2022-03-04-02-10-50-utc-scaled-1-1024x683.jpg',paragraph:'I can truly say, this team of dispatchers dose their job when it comes to finding loads. I’m constantly booked up until my 34 off duty HOS. They communicate every detail on every level when it comes to the broker and load.',name:'DENNIS BURKE'},
 
 
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2023/03/img_0547-814b2cf8add31d570c1085e969ac2a281d81f38f-1024x767.jpeg',paragraph:'Very professional and attentive to my business needs. Always provide me with loads and work with me to ensure that I’m well taken care of.',name:'CAROL EBONY'},
+  {image:'/img_0547-814b2cf8add31d570c1085e969ac2a281d81f38f-1024x767.jpeg',paragraph:'Very professional and attentive to my business needs. Always provide me with loads and work with me to ensure that I’m well taken care of.',name:'CAROL EBONY'},
 
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2023/03/truck-driver-lifestyle-guide.jpg',paragraph:'Nice service, all the team members are always there for me. I can always call then when i need assitance, and they always help me. Great job.',name:'TYLER GARZA'},
+  {image:'/truck-driver-lifestyle-guide.jpg',paragraph:'Nice service, all the team members are always there for me. I can always call then when i need assitance, and they always help me. Great job.',name:'TYLER GARZA'},
 
 
-  {image:'https://www.skydispatch.net/wp-content/uploads/2023/03/dot-driver-2308-1024x779.webp',paragraph:'The best truck dispatcher in USA they solved all my problems, and the attention was excellent.',name:'ROSE GABRIELLE'},
+  {image:'/dot-driver-2308-1024x779.webp',paragraph:'The best truck dispatcher in USA they solved all my problems, and the attention was excellent.',name:'ROSE GABRIELLE'},
 
 
 ]
@@ -58,7 +58,7 @@ export default function Home() {
 
 
 
-      <div className=" relative bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(https://716help.com/wp-content/uploads/2017/11/Semi-Truck-Blind-Spots.jpg)`}}>
+      <div className=" relative bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(/Semi-Truck-Blind-Spots.jpg)`}}>
 
 
 <div className="text-white px-commonPadding xs:px-mobileCommonPadding"  style={{backgroundColor:`rgba(8, 47, 109,0.9)`}}>
@@ -94,7 +94,7 @@ export default function Home() {
 
 
 
-  <div className='bg-cover bg-center bg-no-repeat  text-white' style={{backgroundImage:`url(https://716help.com/wp-content/uploads/2017/11/Semi-Truck-Blind-Spots.jpg)`}}>
+  <div className='bg-cover bg-center bg-no-repeat  text-white' style={{backgroundImage:`url(/Semi-Truck-Blind-Spots.jpg)`}}>
 
 
 <div className='px-commonPadding xs:px-mobileCommonPadding pt-16 pb-32' style={{backgroundColor:'rgba(0,0,0,0.7)'}}>
@@ -135,7 +135,7 @@ export default function Home() {
 
 
 
-  <div className='bg-cover bg-center bg-no-repeat  text-white' style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2022/01/01.jpg)`}}>
+  <div className='bg-cover bg-center bg-no-repeat  text-white' style={{backgroundImage:`url(/01.jpg)`}}>
 
 
 <div className='px-commonPadding xs:px-mobileCommonPadding  pt-16 pb-32 xs:pb-16' style={{backgroundColor:'rgba(8, 47, 109,0.85)'}}>
@@ -179,7 +179,7 @@ export default function Home() {
 
 
 
-<div className='bg-cover bg-center bg-no-repeat  relative text-white flex flex-col justify-center items-center h-[600px] xs:h-[400px]' style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2021/11/02-1.jpg)`}}>
+<div className='bg-cover bg-center bg-no-repeat  relative text-white flex flex-col justify-center items-center h-[600px] xs:h-[400px]' style={{backgroundImage:`url(/02-1.jpg)`}}>
 
 <div className='z-20 absolute top-0 left-0 w-full h-full' style={{backgroundColor:'rgba(0,0,0,0.85)'}}></div>
 
