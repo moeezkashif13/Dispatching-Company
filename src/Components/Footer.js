@@ -31,7 +31,7 @@ style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2022
             <p>Available</p>
         </div>
 
-    <div className="text-xl">compliance@sahhmallllc.com</div>
+    <div className="text-xl">compliance@sahhmallllc.online</div>
 
     <div className="text-right xs:text-center">
             <p>30 N Gould St</p>
