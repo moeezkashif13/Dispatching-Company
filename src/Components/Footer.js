@@ -44,7 +44,7 @@ style={{backgroundImage:`url(https://www.skydispatch.net/wp-content/uploads/2022
 
 
 <div className="text-center check:pb-8 font-bold text-4xl xs:text-3xl mt-4 mb-28 xs:mb-60">
-CALL TODAY – (270) 633-8942
+Contact Us - Muhammad Saad Anjum 03123020912 - Arsalan Shoaib 03114112223
 
 </div>
 
